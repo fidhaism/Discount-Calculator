@@ -1,0 +1,51 @@
+/* index.css */
+
+/* Apply a reset to remove default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color */
+body {
+  background-color: #f0f2f5; /* Light gray background */
+}
+
+/* Apply styles to headings */
+h1, h2, h3 {
+  font-family: Arial, sans-serif; /* Set font family */
+  color: #333; /* Dark gray color */
+}
+
+/* Center content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Add some padding to the container */
+.container {
+  padding: 20px;
+}
+
+/* Add a border radius to the container */
+.container {
+  border-radius: 10px;
+}
+
+/* Add box shadow for depth */
+.container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Style links */
+a {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Blue color */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
